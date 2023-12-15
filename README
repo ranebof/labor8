@@ -1,0 +1,12 @@
+#Start your application
+
+Type in cmd "./fast_up.sh"
+
+
+----- start your instance -----
+
+ssh -i "key-first.pem" ubuntu@<your_public_dns>
+
+check urls:
+https://<Public IPv4 address>
+http://<Public IPv4 address>
